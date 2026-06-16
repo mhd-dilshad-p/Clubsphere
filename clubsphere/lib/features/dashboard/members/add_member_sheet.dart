@@ -55,9 +55,8 @@ class _AddMemberSheetState extends State<AddMemberSheet> {
         final clubName = context.read<ClubSessionNotifier>().clubName ?? 'Our Club';
         final email = _emailController.text.trim();
         final name = _nameController.text.trim();
-        // You can change this to your actual deployed website URL.
-        // It is currently set to the default Firebase domain you might use.
-        final appUrl = 'https://clubsphere-web.firebaseapp.com';        
+        final appUrl = 'https://clubsphere-web.web.app'; // Replace with actual deployed URL
+        
         final emailSent = await EmailService.sendInviteEmail(
           recipientEmail: email,
           recipientName: name,
