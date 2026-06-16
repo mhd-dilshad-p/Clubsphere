@@ -1,0 +1,380 @@
+clubsphere
+clubsphere/README.md
+clubsphere/analysis_options.yaml
+clubsphere/android
+clubsphere/assets
+clubsphere/assets/animations
+clubsphere/assets/animations/Building.json
+clubsphere/assets/animations/Error 404.json
+clubsphere/assets/animations/Sandy Loading Animation.json
+clubsphere/assets/animations/admin_approve_animation.json
+clubsphere/assets/animations/admin_approving_processing.json
+clubsphere/assets/animations/call booking.json
+clubsphere/assets/animations/call.json
+clubsphere/assets/animations/checking_all.json
+clubsphere/assets/animations/leadership.json
+clubsphere/assets/animations/login_with_OPT.json
+clubsphere/assets/animations/mainenanse.json
+clubsphere/assets/animations/oops_error.json
+clubsphere/assets/animations/registeration_done.json
+clubsphere/assets/animations/sending_loading.json
+clubsphere/assets/animations/sett_location_map.json
+clubsphere/assets/animations/sport and arts
+clubsphere/assets/animations/sport and arts/Archery Man Animation.json
+clubsphere/assets/animations/sport and arts/Basketball Player Animation.json
+clubsphere/assets/animations/sport and arts/Olympics Animation.json
+clubsphere/assets/animations/sport and arts/arts.json
+clubsphere/assets/animations/sport and arts/boxer lottie Animation.json
+clubsphere/assets/animations/sport and arts/criket.json
+clubsphere/assets/animations/sport and arts/kick on the ball Animation.json
+clubsphere/assets/animations/sport and arts/rope exercise Animation.json
+clubsphere/assets/animations/tried.json
+clubsphere/assets/animations/user restration Done.json
+clubsphere/assets/animations/verification_done.json
+clubsphere/assets/images
+clubsphere/assets/images/splashscreen
+clubsphere/assets/images/splashscreen/logo_c.png
+clubsphere/assets/images/splashscreen/logo_globe.png
+clubsphere/assets/images/splashscreen/text_lubsph.png
+clubsphere/assets/images/splashscreen/text_re.png
+clubsphere/assets/logo
+clubsphere/assets/logo/app_icon_backgroundremoved.png
+clubsphere/assets/logo/app_logo.png
+clubsphere/build
+clubsphere/clubsphere.iml
+clubsphere/ios
+clubsphere/lib
+clubsphere/lib/core
+clubsphere/lib/core/constants
+clubsphere/lib/core/constants/app_strings.dart
+clubsphere/lib/core/constants/route_constants.dart
+clubsphere/lib/core/constants/supabase_constants.dart
+clubsphere/lib/core/errors
+clubsphere/lib/core/errors/exceptions.dart
+clubsphere/lib/core/errors/failures.dart
+clubsphere/lib/core/theme
+clubsphere/lib/core/theme/app_colors.dart
+clubsphere/lib/core/theme/app_text_styles.dart
+clubsphere/lib/core/theme/app_theme.dart
+clubsphere/lib/core/utils
+clubsphere/lib/core/utils/id_generator.dart
+clubsphere/lib/core/utils/permission_guard.dart
+clubsphere/lib/core/utils/router.dart
+clubsphere/lib/core/widgets
+clubsphere/lib/core/widgets/cs_avatar.dart
+clubsphere/lib/core/widgets/cs_badge.dart
+clubsphere/lib/core/widgets/cs_button.dart
+clubsphere/lib/core/widgets/cs_card.dart
+clubsphere/lib/core/widgets/cs_empty_state.dart
+clubsphere/lib/core/widgets/cs_loading.dart
+clubsphere/lib/core/widgets/cs_text_field.dart
+clubsphere/lib/features
+clubsphere/lib/features/auth
+clubsphere/lib/features/auth/data
+clubsphere/lib/features/auth/data/datasources
+clubsphere/lib/features/auth/data/datasources/auth_remote_datasource.dart
+clubsphere/lib/features/auth/data/models
+clubsphere/lib/features/auth/data/models/user_model.dart
+clubsphere/lib/features/auth/data/repositories
+clubsphere/lib/features/auth/data/repositories/auth_repository_impl.dart
+clubsphere/lib/features/auth/domain
+clubsphere/lib/features/auth/domain/entities
+clubsphere/lib/features/auth/domain/entities/club_user.dart
+clubsphere/lib/features/auth/domain/repositories
+clubsphere/lib/features/auth/domain/repositories/auth_repository.dart
+clubsphere/lib/features/auth/domain/usecases
+clubsphere/lib/features/auth/domain/usecases/auth_usecases.dart
+clubsphere/lib/features/auth/presentation
+clubsphere/lib/features/auth/presentation/providers
+clubsphere/lib/features/auth/presentation/providers/auth_provider.dart
+clubsphere/lib/features/auth/presentation/screens
+clubsphere/lib/features/auth/presentation/screens/login_screen.dart
+clubsphere/lib/features/auth/presentation/screens/register_club_screen.dart
+clubsphere/lib/features/auth/presentation/screens/set_password_screen.dart
+clubsphere/lib/features/auth/presentation/screens/splash_screen.dart
+clubsphere/lib/features/dashboard
+clubsphere/lib/features/dashboard/presentation
+clubsphere/lib/features/dashboard/presentation/screens
+clubsphere/lib/features/dashboard/presentation/screens/dashboard_screen.dart
+clubsphere/lib/features/dashboard/presentation/screens/dashboard_shell.dart
+clubsphere/lib/features/dashboard/presentation/screens/more_screen.dart
+clubsphere/lib/features/documents
+clubsphere/lib/features/documents/presentation
+clubsphere/lib/features/documents/presentation/screens
+clubsphere/lib/features/elections
+clubsphere/lib/features/elections/presentation
+clubsphere/lib/features/elections/presentation/screens
+clubsphere/lib/features/events
+clubsphere/lib/features/events/data
+clubsphere/lib/features/events/data/datasources
+clubsphere/lib/features/events/data/datasources/event_remote_datasource.dart
+clubsphere/lib/features/events/data/models
+clubsphere/lib/features/events/data/models/event_model.dart
+clubsphere/lib/features/events/data/repositories
+clubsphere/lib/features/events/data/repositories/event_repository_impl.dart
+clubsphere/lib/features/events/domain
+clubsphere/lib/features/events/domain/entities
+clubsphere/lib/features/events/domain/entities/event_entity.dart
+clubsphere/lib/features/events/domain/repositories
+clubsphere/lib/features/events/domain/repositories/event_repository.dart
+clubsphere/lib/features/events/domain/usecases
+clubsphere/lib/features/events/domain/usecases/event_usecases.dart
+clubsphere/lib/features/events/presentation
+clubsphere/lib/features/events/presentation/providers
+clubsphere/lib/features/events/presentation/providers/event_provider.dart
+clubsphere/lib/features/events/presentation/screens
+clubsphere/lib/features/events/presentation/screens/create_event_screen.dart
+clubsphere/lib/features/events/presentation/screens/events_list_screen.dart
+clubsphere/lib/features/events/presentation/widgets
+clubsphere/lib/features/finance
+clubsphere/lib/features/finance/data
+clubsphere/lib/features/finance/data/datasources
+clubsphere/lib/features/finance/data/datasources/finance_remote_datasource.dart
+clubsphere/lib/features/finance/data/models
+clubsphere/lib/features/finance/data/models/transaction_model.dart
+clubsphere/lib/features/finance/data/repositories
+clubsphere/lib/features/finance/data/repositories/finance_repository_impl.dart
+clubsphere/lib/features/finance/domain
+clubsphere/lib/features/finance/domain/entities
+clubsphere/lib/features/finance/domain/entities/transaction_entity.dart
+clubsphere/lib/features/finance/domain/repositories
+clubsphere/lib/features/finance/domain/repositories/finance_repository.dart
+clubsphere/lib/features/finance/domain/usecases
+clubsphere/lib/features/finance/domain/usecases/finance_usecases.dart
+clubsphere/lib/features/finance/presentation
+clubsphere/lib/features/finance/presentation/providers
+clubsphere/lib/features/finance/presentation/providers/finance_provider.dart
+clubsphere/lib/features/finance/presentation/screens
+clubsphere/lib/features/finance/presentation/screens/add_transaction_screen.dart
+clubsphere/lib/features/finance/presentation/screens/finance_screen.dart
+clubsphere/lib/features/finance/presentation/widgets
+clubsphere/lib/features/members
+clubsphere/lib/features/members/data
+clubsphere/lib/features/members/data/datasources
+clubsphere/lib/features/members/data/datasources/member_remote_datasource.dart
+clubsphere/lib/features/members/data/models
+clubsphere/lib/features/members/data/repositories
+clubsphere/lib/features/members/data/repositories/member_repository_impl.dart
+clubsphere/lib/features/members/domain
+clubsphere/lib/features/members/domain/repositories
+clubsphere/lib/features/members/domain/repositories/member_repository.dart
+clubsphere/lib/features/members/domain/usecases
+clubsphere/lib/features/members/domain/usecases/member_usecases.dart
+clubsphere/lib/features/members/presentation
+clubsphere/lib/features/members/presentation/providers
+clubsphere/lib/features/members/presentation/providers/member_provider.dart
+clubsphere/lib/features/members/presentation/screens
+clubsphere/lib/features/members/presentation/screens/add_member_screen.dart
+clubsphere/lib/features/members/presentation/screens/members_list_screen.dart
+clubsphere/lib/features/members/presentation/widgets
+clubsphere/lib/features/notifications
+clubsphere/lib/features/notifications/presentation
+clubsphere/lib/features/notifications/presentation/screens
+clubsphere/lib/main.dart
+clubsphere/linux
+clubsphere/macos
+clubsphere/pubspec.lock
+clubsphere/pubspec.yaml
+clubsphere/test
+clubsphere/test/widget_test.dart
+clubsphere/web
+clubsphere/windows
+clubsphere_admin_web
+clubsphere_admin_web/README.md
+clubsphere_admin_web/analysis_options.yaml
+clubsphere_admin_web/android
+clubsphere_admin_web/assets
+clubsphere_admin_web/assets/animations
+clubsphere_admin_web/assets/animations/Error 404.json
+clubsphere_admin_web/assets/animations/Sandy Loading Animation.json
+clubsphere_admin_web/assets/animations/admin_approve_animation.json
+clubsphere_admin_web/assets/animations/call booking.json
+clubsphere_admin_web/assets/animations/call.json
+clubsphere_admin_web/assets/animations/checking_all.json
+clubsphere_admin_web/assets/animations/login_with_OPT.json
+clubsphere_admin_web/assets/animations/mainenanse.json
+clubsphere_admin_web/assets/animations/oops_error.json
+clubsphere_admin_web/assets/animations/registeration_done.json
+clubsphere_admin_web/assets/animations/sending_loading.json
+clubsphere_admin_web/assets/animations/sett_location_map.json
+clubsphere_admin_web/assets/animations/sport and arts
+clubsphere_admin_web/assets/animations/sport and arts/Archery Man Animation.json
+clubsphere_admin_web/assets/animations/sport and arts/Basketball Player Animation.json
+clubsphere_admin_web/assets/animations/sport and arts/Olympics Animation.json
+clubsphere_admin_web/assets/animations/sport and arts/arts.json
+clubsphere_admin_web/assets/animations/sport and arts/boxer lottie Animation.json
+clubsphere_admin_web/assets/animations/sport and arts/criket.json
+clubsphere_admin_web/assets/animations/sport and arts/kick on the ball Animation.json
+clubsphere_admin_web/assets/animations/sport and arts/rope exercise Animation.json
+clubsphere_admin_web/assets/animations/tried.json
+clubsphere_admin_web/assets/animations/user restration Done.json
+clubsphere_admin_web/assets/animations/verification_done.json
+clubsphere_admin_web/assets/images
+clubsphere_admin_web/assets/images/splashscreen
+clubsphere_admin_web/assets/images/splashscreen/logo_c.png
+clubsphere_admin_web/assets/images/splashscreen/logo_globe.png
+clubsphere_admin_web/assets/images/splashscreen/text_lubsph.png
+clubsphere_admin_web/assets/images/splashscreen/text_re.png
+clubsphere_admin_web/assets/logo
+clubsphere_admin_web/assets/logo/app_icon_backgroundremoved.png
+clubsphere_admin_web/assets/logo/app_logo.png
+clubsphere_admin_web/build
+clubsphere_admin_web/clubsphere_admin_web.iml
+clubsphere_admin_web/ios
+clubsphere_admin_web/lib
+clubsphere_admin_web/lib/core
+clubsphere_admin_web/lib/core/components
+clubsphere_admin_web/lib/core/components/admin_layout.dart
+clubsphere_admin_web/lib/core/components/stat_card.dart
+clubsphere_admin_web/lib/core/components/status_badge.dart
+clubsphere_admin_web/lib/core/constants
+clubsphere_admin_web/lib/core/constants/app_strings.dart
+clubsphere_admin_web/lib/core/constants/route_constants.dart
+clubsphere_admin_web/lib/core/constants/supabase_constants.dart
+clubsphere_admin_web/lib/core/errors
+clubsphere_admin_web/lib/core/errors/exceptions.dart
+clubsphere_admin_web/lib/core/errors/failures.dart
+clubsphere_admin_web/lib/core/theme
+clubsphere_admin_web/lib/core/theme/app_colors.dart
+clubsphere_admin_web/lib/core/theme/app_text_styles.dart
+clubsphere_admin_web/lib/core/theme/app_theme.dart
+clubsphere_admin_web/lib/core/utils
+clubsphere_admin_web/lib/core/utils/id_generator.dart
+clubsphere_admin_web/lib/core/utils/permission_guard.dart
+clubsphere_admin_web/lib/core/widgets
+clubsphere_admin_web/lib/core/widgets/admin_sidebar.dart
+clubsphere_admin_web/lib/core/widgets/clay_card.dart
+clubsphere_admin_web/lib/core/widgets/cs_avatar.dart
+clubsphere_admin_web/lib/core/widgets/cs_badge.dart
+clubsphere_admin_web/lib/core/widgets/cs_button.dart
+clubsphere_admin_web/lib/core/widgets/cs_card.dart
+clubsphere_admin_web/lib/core/widgets/cs_empty_state.dart
+clubsphere_admin_web/lib/core/widgets/cs_loading.dart
+clubsphere_admin_web/lib/core/widgets/cs_text_field.dart
+clubsphere_admin_web/lib/features
+clubsphere_admin_web/lib/features/approvals
+clubsphere_admin_web/lib/features/approvals/data
+clubsphere_admin_web/lib/features/approvals/data/repositories
+clubsphere_admin_web/lib/features/approvals/data/repositories/club_repository.dart
+clubsphere_admin_web/lib/features/approvals/presentation
+clubsphere_admin_web/lib/features/approvals/presentation/screens
+clubsphere_admin_web/lib/features/approvals/presentation/screens/approvals_screen.dart
+clubsphere_admin_web/lib/features/approvals/presentation/screens/approvals_tab.dart
+clubsphere_admin_web/lib/features/auth
+clubsphere_admin_web/lib/features/auth/data
+clubsphere_admin_web/lib/features/auth/data/repositories
+clubsphere_admin_web/lib/features/auth/data/repositories/auth_repository.dart
+clubsphere_admin_web/lib/features/auth/presentation
+clubsphere_admin_web/lib/features/auth/presentation/screens
+clubsphere_admin_web/lib/features/auth/presentation/screens/login_screen.dart
+clubsphere_admin_web/lib/features/auth/presentation/screens/splash_screen.dart
+clubsphere_admin_web/lib/features/auth/presentation/screens/users_list_tab.dart
+clubsphere_admin_web/lib/features/broadcast
+clubsphere_admin_web/lib/features/broadcast/presentation
+clubsphere_admin_web/lib/features/broadcast/presentation/screens
+clubsphere_admin_web/lib/features/broadcast/presentation/screens/broadcast_screen.dart
+clubsphere_admin_web/lib/features/broadcast/presentation/screens/broadcast_tab.dart
+clubsphere_admin_web/lib/features/clubs
+clubsphere_admin_web/lib/features/clubs/data
+clubsphere_admin_web/lib/features/clubs/data/repositories
+clubsphere_admin_web/lib/features/clubs/presentation
+clubsphere_admin_web/lib/features/clubs/presentation/screens
+clubsphere_admin_web/lib/features/clubs/presentation/screens/clubs_list_tab.dart
+clubsphere_admin_web/lib/features/clubs/presentation/screens/clubs_screen.dart
+clubsphere_admin_web/lib/features/dashboard
+clubsphere_admin_web/lib/features/dashboard/data
+clubsphere_admin_web/lib/features/dashboard/data/providers
+clubsphere_admin_web/lib/features/dashboard/data/providers/admin_provider.dart
+clubsphere_admin_web/lib/features/dashboard/data/repositories
+clubsphere_admin_web/lib/features/dashboard/data/repositories/analytics_repository.dart
+clubsphere_admin_web/lib/features/dashboard/presentation
+clubsphere_admin_web/lib/features/dashboard/presentation/screens
+clubsphere_admin_web/lib/features/dashboard/presentation/screens/admin_home_screen.dart
+clubsphere_admin_web/lib/features/dashboard/presentation/screens/dashboard_screen.dart
+clubsphere_admin_web/lib/features/dashboard/presentation/screens/overview_tab.dart
+clubsphere_admin_web/lib/features/settings
+clubsphere_admin_web/lib/features/settings/presentation
+clubsphere_admin_web/lib/features/settings/presentation/screens
+clubsphere_admin_web/lib/features/settings/presentation/screens/settings_screen.dart
+clubsphere_admin_web/lib/main.dart
+clubsphere_admin_web/linux
+clubsphere_admin_web/macos
+clubsphere_admin_web/pubspec.lock
+clubsphere_admin_web/pubspec.yaml
+clubsphere_admin_web/test
+clubsphere_admin_web/web
+clubsphere_admin_web/windows
+clubsphere_tv_app
+clubsphere_tv_app/README.md
+clubsphere_tv_app/analysis_options.yaml
+clubsphere_tv_app/android
+clubsphere_tv_app/assets
+clubsphere_tv_app/assets/animations
+clubsphere_tv_app/assets/animations/Error 404.json
+clubsphere_tv_app/assets/animations/Sandy Loading Animation.json
+clubsphere_tv_app/assets/animations/admin_approve_animation.json
+clubsphere_tv_app/assets/animations/call booking.json
+clubsphere_tv_app/assets/animations/call.json
+clubsphere_tv_app/assets/animations/checking_all.json
+clubsphere_tv_app/assets/animations/login_with_OPT.json
+clubsphere_tv_app/assets/animations/mainenanse.json
+clubsphere_tv_app/assets/animations/oops_error.json
+clubsphere_tv_app/assets/animations/registeration_done.json
+clubsphere_tv_app/assets/animations/sending_loading.json
+clubsphere_tv_app/assets/animations/sett_location_map.json
+clubsphere_tv_app/assets/animations/sport and arts
+clubsphere_tv_app/assets/animations/sport and arts/Archery Man Animation.json
+clubsphere_tv_app/assets/animations/sport and arts/Basketball Player Animation.json
+clubsphere_tv_app/assets/animations/sport and arts/Olympics Animation.json
+clubsphere_tv_app/assets/animations/sport and arts/arts.json
+clubsphere_tv_app/assets/animations/sport and arts/boxer lottie Animation.json
+clubsphere_tv_app/assets/animations/sport and arts/criket.json
+clubsphere_tv_app/assets/animations/sport and arts/kick on the ball Animation.json
+clubsphere_tv_app/assets/animations/sport and arts/rope exercise Animation.json
+clubsphere_tv_app/assets/animations/tried.json
+clubsphere_tv_app/assets/animations/user restration Done.json
+clubsphere_tv_app/assets/animations/verification_done.json
+clubsphere_tv_app/assets/images
+clubsphere_tv_app/assets/images/splashscreen
+clubsphere_tv_app/assets/images/splashscreen/logo_c.png
+clubsphere_tv_app/assets/images/splashscreen/logo_globe.png
+clubsphere_tv_app/assets/images/splashscreen/text_lubsph.png
+clubsphere_tv_app/assets/images/splashscreen/text_re.png
+clubsphere_tv_app/assets/logo
+clubsphere_tv_app/assets/logo/app_icon_backgroundremoved.png
+clubsphere_tv_app/assets/logo/app_logo.png
+clubsphere_tv_app/build
+clubsphere_tv_app/clubsphere_tv_app.iml
+clubsphere_tv_app/ios
+clubsphere_tv_app/lib
+clubsphere_tv_app/lib/core
+clubsphere_tv_app/lib/core/constants
+clubsphere_tv_app/lib/core/constants/app_strings.dart
+clubsphere_tv_app/lib/core/constants/route_constants.dart
+clubsphere_tv_app/lib/core/constants/supabase_constants.dart
+clubsphere_tv_app/lib/core/errors
+clubsphere_tv_app/lib/core/errors/exceptions.dart
+clubsphere_tv_app/lib/core/errors/failures.dart
+clubsphere_tv_app/lib/core/theme
+clubsphere_tv_app/lib/core/theme/app_colors.dart
+clubsphere_tv_app/lib/core/theme/app_text_styles.dart
+clubsphere_tv_app/lib/core/theme/app_theme.dart
+clubsphere_tv_app/lib/core/utils
+clubsphere_tv_app/lib/core/utils/id_generator.dart
+clubsphere_tv_app/lib/core/utils/permission_guard.dart
+clubsphere_tv_app/lib/core/widgets
+clubsphere_tv_app/lib/core/widgets/cs_avatar.dart
+clubsphere_tv_app/lib/core/widgets/cs_badge.dart
+clubsphere_tv_app/lib/core/widgets/cs_button.dart
+clubsphere_tv_app/lib/core/widgets/cs_card.dart
+clubsphere_tv_app/lib/core/widgets/cs_empty_state.dart
+clubsphere_tv_app/lib/core/widgets/cs_loading.dart
+clubsphere_tv_app/lib/core/widgets/cs_text_field.dart
+clubsphere_tv_app/lib/main.dart
+clubsphere_tv_app/linux
+clubsphere_tv_app/macos
+clubsphere_tv_app/pubspec.lock
+clubsphere_tv_app/pubspec.yaml
+clubsphere_tv_app/test
+clubsphere_tv_app/web
+clubsphere_tv_app/windows
