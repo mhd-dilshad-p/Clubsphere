@@ -1,5 +1,5 @@
 -- ============================================================
--- CLUBSPHERE — COMPLETE DATABASE SQL
+-- CLENZA — COMPLETE DATABASE SQL
 -- Verified & Successfully Executed
 -- Run in: Supabase Dashboard → SQL Editor → New Query
 -- ============================================================

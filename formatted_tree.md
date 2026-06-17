@@ -1,4 +1,4 @@
-clubsphere
+clenza
 ├── README.md
 ├── analysis_options.yaml
 ├── android
@@ -41,7 +41,7 @@ clubsphere
 │       ├── app_icon_backgroundremoved.png
 │       └── app_logo.png
 ├── build
-├── clubsphere.iml
+├── clenza.iml
 ├── ios
 ├── lib
 │   ├── core
@@ -179,7 +179,7 @@ clubsphere
 │   └── widget_test.dart
 ├── web
 └── windows
-clubsphere_admin_web
+clenza_admin_web
 ├── README.md
 ├── analysis_options.yaml
 ├── android
@@ -219,7 +219,7 @@ clubsphere_admin_web
 │       ├── app_icon_backgroundremoved.png
 │       └── app_logo.png
 ├── build
-├── clubsphere_admin_web.iml
+├── clenza_admin_web.iml
 ├── ios
 ├── lib
 │   ├── core
@@ -304,7 +304,7 @@ clubsphere_admin_web
 ├── test
 ├── web
 └── windows
-clubsphere_tv_app
+clenza_tv_app
 ├── README.md
 ├── analysis_options.yaml
 ├── android
@@ -344,7 +344,7 @@ clubsphere_tv_app
 │       ├── app_icon_backgroundremoved.png
 │       └── app_logo.png
 ├── build
-├── clubsphere_tv_app.iml
+├── clenza_tv_app.iml
 ├── ios
 ├── lib
 │   ├── core

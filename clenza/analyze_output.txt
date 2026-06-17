@@ -1,0 +1,5 @@
+Analyzing clenza...                                         
+
+   info • Unnecessary use of multiple underscores • lib/features/public/club_profile/club_public_profile_screen.dart:94:93 • unnecessary_underscores
+   info • Unnecessary use of multiple underscores • lib/features/public/club_profile/club_public_profile_screen.dart:94:97 • unnecessary_underscores
+

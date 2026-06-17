@@ -1,0 +1,139 @@
+Analyzing clenza...                                         
+
+  error • Classes can only extend other classes • lib/core/providers/club_session_provider.dart:45:35 • extends_non_class
+  error • Too many positional arguments: 0 expected, but 1 found • lib/core/providers/club_session_provider.dart:48:41 • extra_positional_arguments
+  error • Undefined name 'state' • lib/core/providers/club_session_provider.dart:55:7 • undefined_identifier
+  error • Undefined name 'state' • lib/core/providers/club_session_provider.dart:72:9 • undefined_identifier
+  error • Undefined name 'state' • lib/core/providers/club_session_provider.dart:72:17 • undefined_identifier
+  error • Undefined name 'state' • lib/core/providers/club_session_provider.dart:82:9 • undefined_identifier
+  error • Undefined name 'state' • lib/core/providers/club_session_provider.dart:82:17 • undefined_identifier
+  error • Undefined name 'state' • lib/core/providers/club_session_provider.dart:85:7 • undefined_identifier
+  error • Undefined name 'state' • lib/core/providers/club_session_provider.dart:85:15 • undefined_identifier
+  error • Undefined name 'state' • lib/core/providers/club_session_provider.dart:90:5 • undefined_identifier
+  error • The function 'StateNotifierProvider' isn't defined • lib/core/providers/club_session_provider.dart:94:29 • undefined_function
+warning • Unused import: 'package:flutter/material.dart' • lib/core/router/app_router.dart:1:8 • unused_import
+warning • The value of the local variable 'isGoingToRegister' isn't used • lib/core/router/app_router.dart:37:13 • unused_local_variable
+   info • 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre • lib/core/theme/app_theme.dart:13:5 • deprecated_member_use
+  error • The argument type 'CardTheme' can't be assigned to the parameter type 'CardThemeData?'.  • lib/core/theme/app_theme.dart:23:14 • argument_type_not_assignable
+  error • Classes can only extend other classes • lib/features/auth/login/login_provider.dart:4:29 • extends_non_class
+  error • Too many positional arguments: 0 expected, but 1 found • lib/features/auth/login/login_provider.dart:7:35 • extra_positional_arguments
+  error • Undefined name 'state' • lib/features/auth/login/login_provider.dart:10:5 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/login/login_provider.dart:14:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/login/login_provider.dart:16:7 • undefined_identifier
+  error • The function 'StateNotifierProvider' isn't defined • lib/features/auth/login/login_provider.dart:21:23 • undefined_function
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/auth/register/club_register_screen.dart:47:21 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/auth/register/club_register_screen.dart:49:42 • use_build_context_synchronously
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/auth/register/club_register_screen.dart:102:27 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/auth/register/club_register_screen.dart:134:27 • deprecated_member_use
+  error • Classes can only extend other classes • lib/features/auth/register/register_provider.dart:128:32 • extends_non_class
+  error • Too many positional arguments: 0 expected, but 1 found • lib/features/auth/register/register_provider.dart:131:38 • extra_positional_arguments
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:134:5 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:134:13 • undefined_identifier
+  error • The method 'copyWith' can't be unconditionally invoked because the receiver can be 'null' • lib/features/auth/register/register_provider.dart:145:19 • unchecked_use_of_nullable_value
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:157:5 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:157:13 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:163:16 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:164:19 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:165:29 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:173:11 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:173:38 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:174:21 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:176:87 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:182:17 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:183:21 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:184:24 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:185:21 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:186:18 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:189:29 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:190:33 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:203:22 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:204:18 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:205:18 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:209:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:209:15 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:212:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/auth/register/register_provider.dart:212:15 • undefined_identifier
+  error • Undefined name 'StateNotifierProvider' • lib/features/auth/register/register_provider.dart:218:26 • undefined_identifier
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/auth/register/registration_success_screen.dart:32:44 • deprecated_member_use
+  error • Classes can only extend other classes • lib/features/dashboard/elections/elections_provider.dart:59:33 • extends_non_class
+  error • Too many positional arguments: 0 expected, but 1 found • lib/features/dashboard/elections/elections_provider.dart:62:39 • extra_positional_arguments
+  error • Undefined name 'state' • lib/features/dashboard/elections/elections_provider.dart:65:5 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/elections/elections_provider.dart:77:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/elections/elections_provider.dart:80:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/elections/elections_provider.dart:86:5 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/elections/elections_provider.dart:98:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/elections/elections_provider.dart:101:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/elections/elections_provider.dart:107:5 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/elections/elections_provider.dart:118:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/elections/elections_provider.dart:121:7 • undefined_identifier
+  error • The function 'StateNotifierProvider' isn't defined • lib/features/dashboard/elections/elections_provider.dart:127:33 • undefined_function
+   info • Unnecessary use of 'toList' in a spread • lib/features/dashboard/elections/elections_screen.dart:38:99 • unnecessary_to_list_in_spreads
+   info • Unnecessary use of 'toList' in a spread • lib/features/dashboard/elections/elections_screen.dart:44:97 • unnecessary_to_list_in_spreads
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/dashboard/elections/elections_screen.dart:143:57 • deprecated_member_use
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/elections/vote_sheet.dart:61:17 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/elections/vote_sheet.dart:62:17 • deprecated_member_use
+   info • Unnecessary use of 'toList' in a spread • lib/features/dashboard/elections/vote_sheet.dart:64:16 • unnecessary_to_list_in_spreads
+   info • Don't use 'BuildContext's across async gaps • lib/features/dashboard/events/create_event_sheet.dart:70:7 • use_build_context_synchronously
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/dashboard/events/create_event_sheet.dart:106:17 • deprecated_member_use
+  error • Classes can only extend other classes • lib/features/dashboard/events/events_provider.dart:20:35 • extends_non_class
+  error • Too many positional arguments: 0 expected, but 1 found • lib/features/dashboard/events/events_provider.dart:23:41 • extra_positional_arguments
+  error • Undefined name 'state' • lib/features/dashboard/events/events_provider.dart:35:5 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/events/events_provider.dart:55:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/events/events_provider.dart:58:7 • undefined_identifier
+  error • The function 'StateNotifierProvider' isn't defined • lib/features/dashboard/events/events_provider.dart:64:29 • undefined_function
+warning • The value of the local variable 'theme' isn't used • lib/features/dashboard/events/events_screen.dart:33:11 • unused_local_variable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/dashboard/events/events_screen.dart:142:57 • deprecated_member_use
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/finance/add_finance_sheet.dart:81:23 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/finance/add_finance_sheet.dart:82:23 • deprecated_member_use
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/finance/add_finance_sheet.dart:90:23 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/finance/add_finance_sheet.dart:91:23 • deprecated_member_use
+  error • The method 'eq' isn't defined for the type 'PostgrestTransformBuilder' • lib/features/dashboard/finance/finance_provider.dart:20:19 • undefined_method
+  error • Classes can only extend other classes • lib/features/dashboard/finance/finance_provider.dart:27:34 • extends_non_class
+  error • Too many positional arguments: 0 expected, but 1 found • lib/features/dashboard/finance/finance_provider.dart:30:40 • extra_positional_arguments
+  error • Undefined name 'state' • lib/features/dashboard/finance/finance_provider.dart:40:5 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/finance/finance_provider.dart:67:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/finance/finance_provider.dart:70:7 • undefined_identifier
+  error • The function 'StateNotifierProvider' isn't defined • lib/features/dashboard/finance/finance_provider.dart:86:28 • undefined_function
+warning • The value of the local variable 'theme' isn't used • lib/features/dashboard/finance/finance_screen.dart:33:11 • unused_local_variable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/dashboard/finance/finance_screen.dart:197:56 • deprecated_member_use
+  error • Too many positional arguments: 1 expected, but 2 found • lib/features/dashboard/home/dashboard_provider.dart:28:21 • extra_positional_arguments
+  error • The name 'FetchOptions' isn't a class • lib/features/dashboard/home/dashboard_provider.dart:28:27 • creation_with_non_type
+  error • Undefined name 'CountOption' • lib/features/dashboard/home/dashboard_provider.dart:28:47 • undefined_identifier
+  error • The getter 'count' isn't defined for the type 'PostgrestList' • lib/features/dashboard/home/dashboard_provider.dart:32:44 • undefined_getter
+  error • Too many positional arguments: 1 expected, but 2 found • lib/features/dashboard/home/dashboard_provider.dart:53:21 • extra_positional_arguments
+  error • The name 'FetchOptions' isn't a class • lib/features/dashboard/home/dashboard_provider.dart:53:27 • creation_with_non_type
+  error • Undefined name 'CountOption' • lib/features/dashboard/home/dashboard_provider.dart:53:47 • undefined_identifier
+  error • Too many positional arguments: 1 expected, but 2 found • lib/features/dashboard/home/dashboard_provider.dart:60:21 • extra_positional_arguments
+  error • The name 'FetchOptions' isn't a class • lib/features/dashboard/home/dashboard_provider.dart:60:27 • creation_with_non_type
+  error • Undefined name 'CountOption' • lib/features/dashboard/home/dashboard_provider.dart:60:47 • undefined_identifier
+  error • The getter 'count' isn't defined for the type 'PostgrestList' • lib/features/dashboard/home/dashboard_provider.dart:67:36 • undefined_getter
+  error • The getter 'count' isn't defined for the type 'PostgrestList' • lib/features/dashboard/home/dashboard_provider.dart:68:40 • undefined_getter
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/dashboard/members/add_member_sheet.dart:90:17 • deprecated_member_use
+  error • Classes can only extend other classes • lib/features/dashboard/members/members_provider.dart:21:33 • extends_non_class
+  error • Too many positional arguments: 0 expected, but 1 found • lib/features/dashboard/members/members_provider.dart:24:39 • extra_positional_arguments
+  error • Undefined name 'state' • lib/features/dashboard/members/members_provider.dart:32:5 • undefined_identifier
+  error • Too many positional arguments: 1 expected, but 2 found • lib/features/dashboard/members/members_provider.dart:41:25 • extra_positional_arguments
+  error • The name 'FetchOptions' isn't a class • lib/features/dashboard/members/members_provider.dart:41:31 • creation_with_non_type
+  error • Undefined name 'CountOption' • lib/features/dashboard/members/members_provider.dart:41:51 • undefined_identifier
+  error • The getter 'count' isn't defined for the type 'PostgrestList' • lib/features/dashboard/members/members_provider.dart:44:34 • undefined_getter
+  error • Undefined name 'state' • lib/features/dashboard/members/members_provider.dart:58:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/members/members_provider.dart:61:7 • undefined_identifier
+  error • The function 'StateNotifierProvider' isn't defined • lib/features/dashboard/members/members_provider.dart:67:27 • undefined_function
+warning • The value of the local variable 'theme' isn't used • lib/features/dashboard/members/members_screen.dart:20:11 • unused_local_variable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/dashboard/members/members_screen.dart:66:67 • deprecated_member_use
+  error • The method 'eq' isn't defined for the type 'PostgrestTransformBuilder' • lib/features/dashboard/minutes/minutes_provider.dart:18:19 • undefined_method
+  error • Classes can only extend other classes • lib/features/dashboard/minutes/minutes_provider.dart:25:34 • extends_non_class
+  error • Too many positional arguments: 0 expected, but 1 found • lib/features/dashboard/minutes/minutes_provider.dart:28:40 • extra_positional_arguments
+  error • Undefined name 'state' • lib/features/dashboard/minutes/minutes_provider.dart:36:5 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/minutes/minutes_provider.dart:54:7 • undefined_identifier
+  error • Undefined name 'state' • lib/features/dashboard/minutes/minutes_provider.dart:57:7 • undefined_identifier
+  error • The function 'StateNotifierProvider' isn't defined • lib/features/dashboard/minutes/minutes_provider.dart:63:28 • undefined_function
+warning • The value of the local variable 'theme' isn't used • lib/features/dashboard/minutes/minutes_screen.dart:14:11 • unused_local_variable
+warning • The value of the local variable 'theme' isn't used • lib/features/dashboard/profile/club_profile_edit_screen.dart:11:11 • unused_local_variable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/public/club_profile/club_public_profile_screen.dart:56:60 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/public/club_profile/club_public_profile_screen.dart:137:63 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/public/home/public_home_screen.dart:103:56 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/public/home/widgets/club_card.dart:30:54 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/public/home/widgets/club_card.dart:62:45 • deprecated_member_use
+   info • 'anonKey' is deprecated and shouldn't be used. Use publishableKey instead. anonKey will be removed in a future major version • lib/main.dart:15:5 • deprecated_member_use
+

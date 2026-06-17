@@ -1,0 +1,44 @@
+Analyzing clenza...                                         
+
+warning • Unused import: 'package:supabase_flutter/supabase_flutter.dart' • lib/core/providers/club_session_provider.dart:2:8 • unused_import
+warning • Unused import: 'package:flutter/material.dart' • lib/core/router/app_router.dart:1:8 • unused_import
+warning • The value of the local variable 'isGoingToRegister' isn't used • lib/core/router/app_router.dart:37:13 • unused_local_variable
+   info • 'background' is deprecated and shouldn't be used. Use surface instead. This feature was deprecated after v3.18.0-0.1.pre • lib/core/theme/app_theme.dart:13:5 • deprecated_member_use
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/auth/register/club_register_screen.dart:47:21 • use_build_context_synchronously
+   info • Don't use 'BuildContext's across async gaps, guarded by an unrelated 'mounted' check • lib/features/auth/register/club_register_screen.dart:49:42 • use_build_context_synchronously
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/auth/register/club_register_screen.dart:102:27 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/auth/register/club_register_screen.dart:134:27 • deprecated_member_use
+warning • Unused import: 'package:supabase_flutter/supabase_flutter.dart' • lib/features/auth/register/register_provider.dart:2:8 • unused_import
+warning • Unused import: 'package:image_picker/image_picker.dart' • lib/features/auth/register/register_provider.dart:3:8 • unused_import
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/auth/register/registration_success_screen.dart:32:44 • deprecated_member_use
+   info • Unnecessary use of 'toList' in a spread • lib/features/dashboard/elections/elections_screen.dart:38:99 • unnecessary_to_list_in_spreads
+   info • Unnecessary use of 'toList' in a spread • lib/features/dashboard/elections/elections_screen.dart:44:97 • unnecessary_to_list_in_spreads
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/dashboard/elections/elections_screen.dart:143:57 • deprecated_member_use
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/elections/vote_sheet.dart:61:17 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/elections/vote_sheet.dart:62:17 • deprecated_member_use
+   info • Unnecessary use of 'toList' in a spread • lib/features/dashboard/elections/vote_sheet.dart:64:16 • unnecessary_to_list_in_spreads
+   info • Don't use 'BuildContext's across async gaps • lib/features/dashboard/events/create_event_sheet.dart:70:7 • use_build_context_synchronously
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/dashboard/events/create_event_sheet.dart:106:17 • deprecated_member_use
+warning • The value of the local variable 'theme' isn't used • lib/features/dashboard/events/events_screen.dart:33:11 • unused_local_variable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/dashboard/events/events_screen.dart:142:57 • deprecated_member_use
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/finance/add_finance_sheet.dart:81:23 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/finance/add_finance_sheet.dart:82:23 • deprecated_member_use
+   info • 'groupValue' is deprecated and shouldn't be used. Use a RadioGroup ancestor to manage group value instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/finance/add_finance_sheet.dart:90:23 • deprecated_member_use
+   info • 'onChanged' is deprecated and shouldn't be used. Use RadioGroup to handle value change instead. This feature was deprecated after v3.32.0-0.0.pre • lib/features/dashboard/finance/add_finance_sheet.dart:91:23 • deprecated_member_use
+warning • The value of the local variable 'theme' isn't used • lib/features/dashboard/finance/finance_screen.dart:33:11 • unused_local_variable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/dashboard/finance/finance_screen.dart:197:56 • deprecated_member_use
+   info • 'value' is deprecated and shouldn't be used. Use initialValue instead. This will set the initial value for the form field. This feature was deprecated after v3.33.0-1.0.pre • lib/features/dashboard/members/add_member_sheet.dart:90:17 • deprecated_member_use
+warning • The value of the local variable 'theme' isn't used • lib/features/dashboard/members/members_screen.dart:20:11 • unused_local_variable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/dashboard/members/members_screen.dart:66:67 • deprecated_member_use
+warning • The value of the local variable 'theme' isn't used • lib/features/dashboard/minutes/minutes_screen.dart:14:11 • unused_local_variable
+warning • The value of the local variable 'theme' isn't used • lib/features/dashboard/profile/club_profile_edit_screen.dart:11:11 • unused_local_variable
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/public/club_profile/club_public_profile_screen.dart:56:60 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/public/club_profile/club_public_profile_screen.dart:137:63 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/public/home/public_home_screen.dart:103:56 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/public/home/widgets/club_card.dart:30:54 • deprecated_member_use
+   info • 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss • lib/features/public/home/widgets/club_card.dart:62:45 • deprecated_member_use
+   info • 'anonKey' is deprecated and shouldn't be used. Use publishableKey instead. anonKey will be removed in a future major version • lib/main.dart:15:5 • deprecated_member_use
+   info • Don't invoke 'print' in production code • test_count.dart:3:3 • avoid_print
+   info • The imported package 'supabase' isn't a dependency of the importing package • test_count2.dart:1:8 • depend_on_referenced_packages
+   info • Don't invoke 'print' in production code • test_count2.dart:5:3 • avoid_print
+

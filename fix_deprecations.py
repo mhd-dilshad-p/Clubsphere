@@ -11,7 +11,7 @@ def replace_in_file(file_path, old, new):
         print(f"Fixed {file_path}")
 
 def fix_all():
-    base_dir = "/Users/mohammeddilshadp/Desktop/Main project/My Own Projects/ClubSphere"
+    base_dir = "/Users/mohammeddilshadp/Desktop/Main project/My Own Projects/Clenza"
     for root, dirs, files in os.walk(base_dir):
         if '.dart_tool' in root or 'build' in root:
             continue
